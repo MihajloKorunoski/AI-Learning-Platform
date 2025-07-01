@@ -30,7 +30,7 @@ public abstract class SubmittableEntity {
     private Student submittedBy;
 
     @ManyToOne(optional = false)
-    @JoinColumn(name = "assignted_to_student_id")
+    @JoinColumn(name = "assigned_to_student_id")
     private Student assignedTo;
 
     @ManyToOne
