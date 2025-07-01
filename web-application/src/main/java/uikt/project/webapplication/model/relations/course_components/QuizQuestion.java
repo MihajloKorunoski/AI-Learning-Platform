@@ -11,7 +11,7 @@ import uikt.project.webapplication.model.entities.course_components.Quiz;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class QuizQuesiton {
+public class QuizQuestion {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
