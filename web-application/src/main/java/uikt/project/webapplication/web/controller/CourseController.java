@@ -7,7 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import uikt.project.webapplication.model.entities.courses.Course;
-import uikt.project.webapplication.service.inteface.ICourseService;
+import uikt.project.webapplication.service.interfaces.ICourseService;
 
 import java.io.IOException;
 import java.time.LocalDate;
