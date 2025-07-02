@@ -55,11 +55,11 @@ public class CourseController {
         String mimeType = file.getContentType();
 
         courseService.createCourse(name, description, startDate, endDate, administratorId, instructorId, content, fileName, mimeType);
-        return "redirect:/courses";
+        return "redirect:/home";
     }
 
 
-    @PutMapping("/{id}")
+    @PutMapping("/courses/{id}")
     public Course updateCourse(@PathVariable("id") Long courseId,
                                @RequestBody Course courseDetails) {
         return courseService.updateCourse(courseId, courseDetails);
@@ -68,7 +68,7 @@ public class CourseController {
     @DeleteMapping("/courses/{id}")
     public String deleteCourse(@PathVariable("id") Long id) {
         courseService.deleteCourse(id);
-        return "redirect:/courses";
+        return "redirect:/home";
     }
 
 }
