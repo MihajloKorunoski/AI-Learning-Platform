@@ -44,7 +44,7 @@ public class DataInitializer {
 
         // Create a User
         User user = new User("admin", "password1", "admin2@example.com", LocalDate.now(), LocalDate.now(), UserRole.ADMINISTRATOR, person);
-        User user2 = new User("instructor", "password2", "instructor2@example.com", LocalDate.now(), LocalDate.of(2023, 6, 1), UserRole.PROFESSOR, person);
+        User user2 = new User("instructor", "password2", "instructor2@example.com", LocalDate.now(), LocalDate.of(2023, 6, 1), UserRole.PROFESSOR, person2);
 
         // Create an Administrator
         Administrator administrator = new Administrator();
