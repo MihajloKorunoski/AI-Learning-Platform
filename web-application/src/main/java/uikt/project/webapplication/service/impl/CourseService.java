@@ -8,7 +8,7 @@ import uikt.project.webapplication.model.exceptions.ResourceNotFoundException;
 import uikt.project.webapplication.repository.AdministratorRepository;
 import uikt.project.webapplication.repository.CourseRepository;
 import uikt.project.webapplication.repository.InstructorRepository;
-import uikt.project.webapplication.service.inteface.ICourseService;
+import uikt.project.webapplication.service.interfaces.ICourseService;
 
 import java.time.LocalDate;
 import java.util.List;

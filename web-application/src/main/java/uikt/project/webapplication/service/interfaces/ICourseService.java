@@ -1,4 +1,4 @@
-package uikt.project.webapplication.service.inteface;
+package uikt.project.webapplication.service.interfaces;
 
 import uikt.project.webapplication.model.entities.courses.Course;
 
